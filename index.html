@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" />
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<!-- ressources bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- ressource style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+<!-- ressource responsive button -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CV François CIERPUCHA</title>
+  </head>
+  <body>
+    <div id="parallaxe">
+      <a name="accueil-ancre"></a>
+      <div class="container-fluid">
+        <header>
+          <div class="row">
+            <div class="col-md-12 text-center font-weight-bold">
+              <h1>François Cierpucha</h1>
+              <p id="titre">Développeur web et web mobile</p>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+<!-- navbar -->
+    <div class="nav_bar" id="navbar">
+      <a class="active" href="#accueil-ancre">Accueil</a>
+      <a href="#languages-ancre">Languages</a>
+      <a href="#diplome-ancre">Diplômes et Formations</a>
+      <a href="#expérience-ancre">Expérience Professionnelles</a>
+      <a href="#projet-ancre">Projets</a>
+      <a href="#passions-ancre">Passions</a>
+      <a href="#contact-ancre">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+<!-- navbar end -->
+    <div class="container-fluid">
+<!-- languages -->
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="right-showing"><a name="languages-ancre"></a>languages</h2>
+        </div>
+      </div>
+      <div class="row pb-5" id="progress_bloc">
+<!-- html progressbar -->
+        <div class="col-md-2 text-center">
+          <p class="left-showing" id="pro_html">HTML :</p>
+        </div>
+        <div class="col-md-3">
+          <div id="html_Progress">
+            <div id="html_Bar">
+              <p class="porcent">90 %</p>
+            </div>
+          </div>
+        </div>
+<!-- css progressbar -->
+        <div class="col-md-2 text-center">
+          <p class="left-showing" id="pro_css">css :</p>
+        </div>
+        <div class="col-md-3">
+          <div id="css_Progress">
+            <div id="css_Bar">
+              <p class="porcent">90 %</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- bootstrap progressbar -->
+      <div class="row pb-5">
+        <div class="col-md-2 text-center">
+          <p class="left-showing" id="pro_boot">bootstrap :</p>
+        </div>
+        <div class="col-md-3">
+          <div id="boot_Progress">
+            <div id="boot_Bar">
+              <p class="porcent">90 %</p>
+            </div>
+          </div>
+        </div>
+<!-- Javascrpit progressbar -->
+        <div class="col-md-2 text-center">
+          <p class="left-showing" id="pro_js">Javascrpit :</p>
+        </div>
+        <div class="col-md-3">
+          <div id="js_Progress">
+            <div id="js_Bar">
+              <p class="porcent">60 %</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- jquery progressbar -->
+      <div class="row pb-5">
+        <div class="col-md-2 text-center">
+          <p class="left-showing" id="pro_jquery">Jquery :</p>
+        </div>
+        <div class="col-md-3">
+          <div id="jquery_Progress">
+            <div id="jquery_Bar">
+              <p class="porcent">60 %</p>
+            </div>
+          </div>
+        </div>
+<!-- PhP progressbar -->
+        <div class="col-md-2 text-center">
+          <p class="left-showing" id="pro_php">PHP :</p>
+        </div>
+        <div class="col-md-3">
+          <div id="php_Progress">
+            <div id="php_Bar"></div>
+          </div>
+        </div>
+      </div>
+<!-- Languages end -->
+<!-- Systèmes d'exploitation -->
+      <div class="row pb-5 text-center">
+        <div class="col-md-12">
+          <h2 class="right-showing">Systèmes d'exploitation</h2>
+        </div>
+      </div>
+<!-- jquery progressbar -->
+      <div class="row pb-5" id="progress_bloc">
+        <div class="col-md-2 text-center">
+          <p class="left-showing" id="pro_windows">Windows :</p>
+        </div>
+        <div class="col-md-3">
+          <div id="windows_Progress">
+            <div id="windows_Bar">
+              <p class="porcent">95 %</p>
+            </div>
+          </div>
+        </div>
+<!-- PhP progressbar -->
+        <div class="col-md-2 text-center">
+          <p class="left-showing pb-5" id="pro_linux">Linux :</p>
+        </div>
+        <div class="col-md-3">
+          <div id="linux_Progress">
+            <div id="linux_Bar">
+              <p class="porcent">80 %</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- end preogressbar -->
+<!--titre de la partie diplôme et formations-->
+    <div class="container-fluid contdark">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="d-f">
+            <p class="left-showing"><a name="diplome-ancre"></a>Diplômes et formations</p>
+          </div>
+        </div>
+      </div>
+<!--permis-->
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="permis right-showing">
+            <p>Permis B véhiculé et A2</p>
+          </div>
+        </div>
+      </div>
+<!--diplome bac-->
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4 text-center border-rad left-showing">
+          <h3>Baccalauréat</h3>
+          <p class="student"><strong>2016 : </strong>Obtention du Baccalauréat scientifique option science et vie de la terre spécialisation mathématiques</p>
+        </div>
+      </div>
+<!--formation ifsa-->
+      <div class="row">
+        <div class="col-md-7"></div>
+        <div class="col-md-4 text-center border-rad right-showing">
+          <h3>Auxiliaire Vétérianire</h3>
+            <p class="student"><strong>2016/2019 : </strong>Formation d'auxiliaire vétérinaire par correspondance sur une durée de 3 ans</p>
+          </div>
+      </div>
+<!--Attestation auxiliaire vétérinaire-->
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4 text-center border-rad left-showing">
+          <h3>Attestation d'Auxiliaire vétérinaire</h3>
+          <p class="student"><strong>2019 : </strong>Obtention de l'attestation d'auxiliaire vétérinaire option rural</p>
+        </div>
+      </div>
+<!--Préorientation la mollière-->
+      <div class="row">
+        <div class="col-md-7"></div>
+        <div class="col-md-4 text-center border-rad right-showing">
+          <h3>Préorientaion</h3>
+            <p class="student"><strong>2019 : </strong>Préorientation de 3 mois au centre de réadaptation Professionnelles LA MOLLIERE de Berck</p>
+          </div>
+      </div>
+<!--Formation développeur Web et Web-Mobile-->
+      <div class="row pb-5">
+        <div class="col-md-1 pb-5"></div>
+        <div class="col-md-4 text-center border-rad left-showing">
+          <h3>Formation développeur Web et Web-Mobile</h3>
+          <p class="student"><strong>2019/2020 : </strong>Diplôme en cours d'obtention</p>
+        </div>
+      </div>
+    </div>
+<!-- End formation et diplômes -->
+<!--expérience pro-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center font-weight-bold">
+          <h2 class="right-showing"><a name="expérience-ancre"></a> Mes expériences Professionnelles</h2>
+        </div>
+      </div><br><br><br><br>
+      <div class="row">
+        <div class="col-md-12 text-center font-weight-blod">
+          <div class="xp-list left-showing">
+             <p>Stage en clinique vétérinaire en 2013 à la clinique de Cornouillage a Pluguffan</p>
+             <p>Stage en clinique vétérinaire en 2018 à la clinique Eurolia a Ham</p>
+             <p>Stage qualité de janvier 2019 à février 2019 dans l'usine GGF à Noyon</p>
+             <p>Préorientaion au CRP LAMOLLIERE de Berck-sur-mer de mars 2019 à juin 2019</p>
+             <p>Stage de développeur web dans l'agence de communication point-virgule.net en juin 2019.</p>
+         </div>
+        </div>
+      </div>
+<!-- end experience pro -->
+<!--Projet-->
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="right-showing"><a name="projet-ancre"></a>Projets</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="left-showing projets-passions">
+            <p><strong>Premier projet:</strong> Refonte du site <a href="https://www.pachyonychie-congenitale-lecoeuraupied.com/">Le coeur au pied</a></p>
+            <p><strong>Deuxième projet : </strong>Faire la formation de développeur d'application à l'école du numérique La Manu</p>
+            <p><strong>Troisième projet:</strong> Créer une application pour combattre l'abandon des animaux.</p>
+         </div>
+        </div>
+      </div>
+<!-- end projet -->
+<!--passions-->
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="right-showing"><a name="passions-ancre"></a>Passions</h2>
+        </div>
+        <div class="col-md-12">
+          <div class="left-showing projets-passions">
+           <p><strong>Tir à l'arc:</strong> 4 titres de champion de france en tant que capitaine de l'équipe</p>
+           <p>1 titre de vice champion de france en tant que capitaine de l'équipe</p>
+           <p>5 titres de champion de picardie</p>
+           <p>11 Titres de champion de l'oise</p>
+           <p><strong>Musculation:</strong> 4 fois par semaine</p>
+           <p><strong>VTT:</strong> 1 fois par semaine</p>
+         </div>
+        </div>
+      </div>
+<!-- end passions -->
+<!--contact-->
+      <div class="row contact ">
+        <h4 class="col-md-4 text-white text-center font-weight-bold"> <a name="contact-ancre"></a> Contact :</h4>
+        <div class="col-md-6  pt-4 text-white">
+          <p>Tel : 06.35.57.30.54</p>
+          <p>E-Mail : francoiscierpucha@gmail.com</p>
+          <p>Adresse : 31 squarre de lattre de tassigny 60400 NOYON</p>
+        </div>
+      </div>
+    </div>
+<!-- end contact -->
+<!-- script ressources -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
